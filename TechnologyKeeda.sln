@@ -5,11 +5,19 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechnologyKeeda.Web", "WebAppTechnologyKeeda.Web\TechnologyKeeda.Web.csproj", "{608F6228-99AB-4267-88EE-196D5F6D344A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnologyKeeda.Entities", "TechnologyKeeda.Entities\TechnologyKeeda.Entities.csproj", "{F0C3B6F6-A2B8-4CF0-9606-2FD0B335C421}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechnologyKeeda.Entities", "TechnologyKeeda.Entities\TechnologyKeeda.Entities.csproj", "{F0C3B6F6-A2B8-4CF0-9606-2FD0B335C421}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnologyKeeda.Repositories", "TechnologyKeeda.Repositories\TechnologyKeeda.Repositories.csproj", "{8CCB60AE-F0B7-49BA-98B6-108DE2580E2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechnologyKeeda.Repositories", "TechnologyKeeda.Repositories\TechnologyKeeda.Repositories.csproj", "{8CCB60AE-F0B7-49BA-98B6-108DE2580E2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnologyKeeda.UI", "TechnologyKeeda.UI\TechnologyKeeda.UI.csproj", "{058A69E8-CD42-45AC-BDE2-F68D60185724}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechnologyKeeda.UI", "TechnologyKeeda.UI\TechnologyKeeda.UI.csproj", "{058A69E8-CD42-45AC-BDE2-F68D60185724}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConcertBooking.Entities", "TechnologyKeeda.ConcertBooking.Entities\ConcertBooking.Entities.csproj", "{CBC4709F-DBAD-43A3-85C4-2E46DA095610}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConcertBooking.Repositories", "ConcertBooking.Repositories\ConcertBooking.Repositories.csproj", "{700E5590-8948-441F-9C44-144D36AB49B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConcertBooking.WebHost", "ConcertBooking.WebHost\ConcertBooking.WebHost.csproj", "{ABF4A0FC-5434-439C-A885-E865C583C54C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcertBooking.InfraStructure", "ConcertBooking.InfraStructure\ConcertBooking.InfraStructure.csproj", "{8951AF4C-B696-4F01-83DD-F14C3A04422B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +41,22 @@ Global
 		{058A69E8-CD42-45AC-BDE2-F68D60185724}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{058A69E8-CD42-45AC-BDE2-F68D60185724}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{058A69E8-CD42-45AC-BDE2-F68D60185724}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBC4709F-DBAD-43A3-85C4-2E46DA095610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBC4709F-DBAD-43A3-85C4-2E46DA095610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBC4709F-DBAD-43A3-85C4-2E46DA095610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBC4709F-DBAD-43A3-85C4-2E46DA095610}.Release|Any CPU.Build.0 = Release|Any CPU
+		{700E5590-8948-441F-9C44-144D36AB49B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{700E5590-8948-441F-9C44-144D36AB49B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{700E5590-8948-441F-9C44-144D36AB49B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{700E5590-8948-441F-9C44-144D36AB49B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABF4A0FC-5434-439C-A885-E865C583C54C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABF4A0FC-5434-439C-A885-E865C583C54C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABF4A0FC-5434-439C-A885-E865C583C54C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABF4A0FC-5434-439C-A885-E865C583C54C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8951AF4C-B696-4F01-83DD-F14C3A04422B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8951AF4C-B696-4F01-83DD-F14C3A04422B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8951AF4C-B696-4F01-83DD-F14C3A04422B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8951AF4C-B696-4F01-83DD-F14C3A04422B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
